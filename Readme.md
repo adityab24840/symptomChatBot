@@ -14,8 +14,8 @@ This project fine-tunes a GPT-2 model on a dataset of diseases and symptoms to g
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/yourproject.git
-   cd yourproject
+   git clone https://github.com/adityab24840/symptomChatBot
+   cd symptomChatBot
    ```
 
 2. Install the required dependencies:
@@ -38,12 +38,12 @@ The dataset used for training is the `QuyenAnhDE/Diseases_Symptoms` dataset from
 
 This project uses the `distilgpt2` model from Hugging Face's Transformers library. The model is fine-tuned using the diseases and symptoms dataset.
 
-## Training
+## Using the notebook
 
-To train the model, run the following command:
+Use VS code or Collab
 
 ```bash
-python symptomChatBot.ipynb
+symptomChatBot.ipynb
 ```
 
 The script performs the following steps:
